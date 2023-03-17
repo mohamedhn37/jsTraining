@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{overflow-x: hidden;}
+
+.menu{
+    width: 30%;
+    margin: 20vh auto;
+}
+.menu .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightgreen;
+    padding: 30px;
+}
+.menu .logo h3{
+    color: #fff;
+}
+.menu .logo button{
+    padding: 10px;
+}
+.menu .menu-item{
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+.menu .menu-item ul{
+    list-style: none;
+}
+.menu .menu-item ul li{
+    padding-bottom: 10px;
+}
+.d-none{
+    display: none;
+}
+.hour{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hour .heur,.minute,.second{
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inpt-pwd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.inpt-pwd input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.inpt-pwd button{
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.shadow h3{
+    font-size: 45px;
+}
+.shadow p{
+    font-size: 25px;
+}
+.shadow .question h4{
+    font-size: 20px;
+    float: right;
+}
+.second-counter{
+    top: 20px;
+    right: 90px;
+    background-color: #E9E9E9;
+    border-radius: 45px;
+}
+.second-counter .col-12{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.second-counter .col-12 .sec{
+    background-color: #fff;
+    width: 85px;
+    height: 55px;
+    border-radius: 40%;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.second-counter .col-12 .info p{
+    font-size: 15px;
+    margin: 10px 0 0 15px;
+    font-weight: bold;
+}
+
+@keyframes move-0 {
+    100% { width: 0%; }
+}
+@keyframes move-25 {
+    100% { width: 25%; background-color: red; }
+}
+@keyframes move-50 {
+    100% { width: 50%; background-color: red; }
+}
+@keyframes move-75 {
+    100% { width: 75%; background-color: red; }
+}
+@keyframes move-100 {
+    100% { width: 100%; background-color: red; }
+}
